@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import React from 'react';
 
 const HeroSection= () => {
@@ -19,10 +19,12 @@ const HeroSection= () => {
 
         {/* Right Section */}
         <div className="lg:w-1/2 mt-8 lg:mt-0 flex justify-center">
-          <img
+          <Image
             src="/Screenshot 2024-12-08 231726.png"
             alt="New Collection"
             className="max-w-full h-full"
+            width={1440}
+            height={716}
           />
         </div>
       </div>
